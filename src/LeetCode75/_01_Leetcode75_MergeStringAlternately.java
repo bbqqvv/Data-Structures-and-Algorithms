@@ -1,4 +1,18 @@
 package LeetCode75;
+/**
+ * _01_Leetcode75_MergeStringAlternately
+ * <p>
+ * Version 1.0
+ * <p>
+ * Date: 3/11/2025
+ * <p>
+ * Copyright
+ * <p>
+ * Modification Logs:
+ * DATE        AUTHOR        DESCRIPTION
+ * --------------------------------------
+ * 3/11/2025    VANQUOCBUI    Create
+ */
 
 public class _01_Leetcode75_MergeStringAlternately {
     public String mergeAlternately(String word1, String word2) {
@@ -9,10 +23,5 @@ public class _01_Leetcode75_MergeStringAlternately {
             if (i < word2.length()) sb.append(word2.charAt(i));
         }
         return sb.toString();
-    }
-
-    public static void main(String[] args) {
-        _01_Leetcode75_MergeStringAlternately m = new _01_Leetcode75_MergeStringAlternately();
-        System.out.println(m.mergeAlternately("abcd", "efg"));
     }
 }
