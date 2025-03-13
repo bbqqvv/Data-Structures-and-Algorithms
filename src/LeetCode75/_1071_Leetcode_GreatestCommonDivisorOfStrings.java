@@ -15,6 +15,9 @@ package LeetCode75;
  * 3/12/2025    VANQUOCBUI    Create
  */
 
+
+
+
 public class _1071_Leetcode_GreatestCommonDivisorOfStrings {
     public String gcdOfStrings(String str1, String str2) {
         return (str1 + str2).equals(str2 + str1)
